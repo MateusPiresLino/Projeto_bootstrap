@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/style/card.css">
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <title>CodeFuture</title>
+</head>
+
+<body>
+    <header id="menu-abas">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand me-5" href="#"><strong>CodeFuture</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-item" aria-controls="navbar-item" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-item">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Noticias</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#tecnologia">Tecnologia</a></li>
+                                <li><a class="dropdown-item" href="#IA">IA Generativa</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Vagas Tech</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>    
+        </nav>
+    </header>
+
+    <div id="carousel-ia" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-ia" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+            <button type="button" data-bs-target="#carousel-ia" data-bs-slide-to="1" aria-label="slide 2"></button>
+            <button type="button" data-bs-target="#carousel-ia" data-bs-slide-to="2" aria-label="slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img id="opacidade" class="d-block w-100" src="./src/images/iamulher.jpg" alt="imagem de uma rede neural de inteligencia 
+                artificial">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>O Futuro da Criatividade</h5>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img id="opacidade" class="d-block w-100" src="./src/images/robo.jpg" alt="imagem de um robô assistente">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>robôs colaborativos</h5>
+                </div>
+                
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img id="opacidade" class="d-block w-100" src="./src/images/ia_criaça.jpg" alt="imagem de uma criaça utilizand
+                o assitente virtual">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>O Código do Futuro</h5>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="carousel-control-prev" data-bs-target="#carousel-ia" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#carousel-ia" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> 
+
+    <!--Seções com Grid-->
+    <div data-bs-spy="scroll" data-bs-target="#menu-abas">
+        <section>
+            <h2 id="tecnologia">Tecnologia</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col mb-4">
+                    <article class="card text-bg-dark">
+                        <img class="card-img" src="./src/images/computador1.jpg" alt="imagem de uma rede neura em personificação humana">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mb-3">Computador Asus</h5>
+                            <h6 class="card-subtitle mb-3">A Tecnologia por Trás da Criatividade Artificial</h6>
+                            <p class="card-text">As Redes Neurais Profundas são a base da Inteligência Artificial Generativa, simulando o funcionamento do cérebro humano para resolver problemas complexos. Essa tecnologia permite a criação de imagens, textos e sons inovadores, sendo amplamente usada em áreas como reconhecimento de padrões, análise preditiva e automação criativa.</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="#">30/11/2024 ás 22:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="col mb-4">
+                    <article class="card text-bg-dark">
+                        <img class="card-img" src="./src/images/controleps.jpg" alt="imagem de uma rede neura em personificação humana">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mb-3">Novo Controle PS5</h5>
+                            <h6 class="card-subtitle mb-3">A Tecnologia por Trás da Criatividade Artificial</h6>
+                            <p class="card-text">As Redes Neurais Profundas são a base da Inteligência Artificial Generativa, simulando o funcionamento do cérebro humano para resolver problemas complexos. Essa tecnologia permite a criação de imagens, textos e sons inovadores, sendo amplamente usada em áreas como reconhecimento de padrões, análise preditiva e automação criativa. </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="#">30/11/2024 ás 22:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="col mb-4">
+                    <article class="card text-bg-dark">
+                        <img class="card-img" src="./src/images/spacex.jpg" alt="imagem de uma rede neura em personificação humana">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mb-3">Os avanços da SpaceX</h5>
+                            <h6 class="card-subtitle mb-3">A Tecnologia por Trás da Criatividade Artificial</h6>
+                            <p class="card-text">As Redes Neurais Profundas são a base da Inteligência Artificial Generativa, simulando o funcionamento do cérebro humano para resolver problemas complexos. Essa tecnologia permite a criação de imagens, textos e sons inovadores, sendo amplamente usada em áreas como reconhecimento de padrões, análise preditiva e automação criativa. </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="#">30/11/2024 ás 22:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="col mb-4">
+                    <article class="card text-bg-dark">
+                        <img class="card-img" src="./src/images/computador2.jpg" alt="imagem de uma rede neura em personificação humana">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mb-3">PC Gamer</h5>
+                            <h6 class="card-subtitle mb-3">A Tecnologia por Trás da Criatividade Artificial</h6>
+                            <p class="card-text">As Redes Neurais Profundas são a base da Inteligência Artificial Generativa, simulando o funcionamento do cérebro humano para resolver problemas complexos. Essa tecnologia permite a criação de imagens, textos e sons inovadores, sendo amplamente usada em áreas como reconhecimento de padrões, análise preditiva e automação criativa. </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="#">30/11/2024 ás 22:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--Seções2-->
+        <section>
+            <h2 id="IA">IA Generativa</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col mb-4">
+                    <article class="card text-bg-dark">
+                        <img class="card-img" src="./src/images/redesneurais.jpg" alt="imagem de uma rede neura em personificação humana">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mb-3">Redes Neurais Profundas</h5>
+                            <h6 class="card-subtitle mb-3">A Tecnologia por Trás da Criatividade Artificial</h6>
+                            <p class="card-text">As Redes Neurais Profundas são a base da Inteligência Artificial Generativa, simulando o funcionamento do cérebro humano para resolver problemas complexos. Essa tecnologia permite a criação de imagens, textos e sons inovadores, sendo amplamente usada em áreas como reconhecimento de padrões, análise preditiva e automação criativa. </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="#">30/11/2024 ás 22:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="col mb-4">
+                    <article class="card text-bg-dark">
+                        <img class="card-img" src="./src/images/mulherluzes.jpg" alt="imagem de uma rede neura em personificação humana">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mb-3">Os avanços da IA generativa</h5>
+                            <h6 class="card-subtitle mb-3">A Tecnologia por Trás da Criatividade Artificial</h6>
+                            <p class="card-text">As Redes Neurais Profundas são a base da Inteligência Artificial Generativa, simulando o funcionamento do cérebro humano para resolver problemas complexos. Essa tecnologia permite a criação de imagens, textos e sons inovadores, sendo amplamente usada em áreas como reconhecimento de padrões, análise preditiva e automação criativa. </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="#">30/11/2024 ás 22:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="col mb-4">
+                    <article class="card text-bg-dark">
+                        <img class="card-img" src="./src/images/mulherpintada.jpg" alt="imagem de uma rede neura em personificação humana">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mb-3">Geração de Imagem</h5>
+                            <h6 class="card-subtitle mb-3">A Tecnologia por Trás da Criatividade Artificial</h6>
+                            <p class="card-text">As Redes Neurais Profundas são a base da Inteligência Artificial Generativa, simulando o funcionamento do cérebro humano para resolver problemas complexos. Essa tecnologia permite a criação de imagens, textos e sons inovadores, sendo amplamente usada em áreas como reconhecimento de padrões, análise preditiva e automação criativa. </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="#">30/11/2024 ás 22:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="col mb-4">
+                    <article class="card text-bg-dark">
+                        <img class="card-img" src="./src/images/robov.jpg" alt="imagem de uma rede neura em personificação humana">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mb-3">Robos Colaborativos</h5>
+                            <h6 class="card-subtitle mb-3">A Tecnologia por Trás da Criatividade Artificial</h6>
+                            <p class="card-text">As Redes Neurais Profundas são a base da Inteligência Artificial Generativa, simulando o funcionamento do cérebro humano para resolver problemas complexos. Essa tecnologia permite a criação de imagens, textos e sons inovadores, sendo amplamente usada em áreas como reconhecimento de padrões, análise preditiva e automação criativa. </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="#">30/11/2024 ás 22:30:00</time>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </div>    
+
+    <!--Formulario de contato-->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4" id="form">
+        <div class="col mb-4">
+            <h2 id="contato">Contato</h2>
+            <form class="needs-validation" novalidate>
+                <div class="form-floating mb-3">
+                    <input class="form-control mb-2" type="text" id="nome" placeholder="Seu nome" required>
+                    <label class="form-label" for="nome">Seu nome</label>
+                    <div class="invalid-feedback">Por favor, insira seu nome.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control mb-2" type="tel" id="numero" placeholder="Contato" required>
+                    <label class="form-label" for="numero">Contato</label>
+                    <div class="invalid-feedback">Por favor, insira um número de telefone válido.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control mb-2" type="email" id="email" placeholder="E-mail" required>
+                    <label class="form-label" for="email">Seu e-mail</label>
+                    <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
+                </div>
+                <div class="form-floating">
+                    <textarea name="mensagem" id="mensagem" class="form-control mb-3" placeholder="" style="height: 100px" required></textarea>
+                    <label class="form-label" for="mensagem">Sua mensagem</label>
+                </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                        <input class="form-check-input" type="checkbox" id="aceito-termos" required>
+                        <div class="invalid-feedback">Por favor, escreva sua mensagem.</div>
+                    </div>
+                    <button class="btn btn-success" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container_footer">
+            <p>
+                2024 &copy; CodeFuture - Todos os direitos reservados 
+            </p>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/omateuslino/">
+                        <img src=".//src/icones/linkedin.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/omateuslino/">
+                        <img src="./src/icones/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./src/icones/youtube.png" alt="Youtube">
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./src/lib/bootstrap.bundle.min.js"></script>
+    <script src="./src/js/validacao.js"></script>
+</body>
+</html>

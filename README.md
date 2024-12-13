@@ -2,7 +2,7 @@ Projeto: Landing Page com Bootstrap - Projeto Sépia
 
 Bem-vindo ao repositório do Projeto Sépia, uma landing page responsiva desenvolvida para demonstrar a aplicação de técnicas modernas de front-end utilizando o framework Bootstrap. Este projeto foi pensado para praticar habilidades de design responsivo, organização de layout e interatividade.
 
-Acesse o projeto online aqui
+Acesse o projeto online [aqui](https://projeto-bootstrap-sepia.vercel.app/#)
 
 🔧 Funcionalidades
 
@@ -31,16 +31,6 @@ O design segue uma paleta sóbria e profissional, com tons que remetem à elegâ
 🕵️ Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
-
-projeto-bootstrap-sepia/
-|-- index.html
-|-- css/
-|     └-- styles.css
-|-- img/
-|     └-- (imagens utilizadas no projeto)
-|-- js/
-|     └-- script.js
-|-- README.md
 
 index.html: Arquivo principal da página.
 
@@ -78,8 +68,8 @@ Agradeço a todos que acompanham o meu aprendizado e incentivam meu desenvolvime
 
 Acesse o Projeto Online
 
-Repositório no [GitHub]
+Repositório no [GitHub](https://github.com/MateusPiresLino/Projeto_bootstrap)
 
-Meu [LinkedIn]
+Meu [LinkedIn](https://www.linkedin.com/in/omateuslino/)
 
 Sinta-se à vontade para dar feedbacks, abrir issues ou contribuir com melhorias!

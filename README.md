@@ -78,8 +78,8 @@ Agradeço a todos que acompanham o meu aprendizado e incentivam meu desenvolvime
 
 Acesse o Projeto Online
 
-Repositório no GitHub
+Repositório no [GitHub]
 
-Meu LinkedIn
+Meu [LinkedIn]
 
 Sinta-se à vontade para dar feedbacks, abrir issues ou contribuir com melhorias!
